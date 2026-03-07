@@ -79,42 +79,6 @@ abbr[data-original-title] {
   cursor: help;
   border-bottom: 0;
   text-decoration-skip-ink: none; }
-<style>
-*{
-  margin:0;
-  padding:0;
-  box-sizing:border-box;
-}
-
-.container{
-  display:flex;
-  flex-wrap:wrap;
-}
-
-.box{
-  width:33%;
-  padding:10px;
-}
-
-/* Tablet */
-@media (max-width:768px){
-  .box{
-    width:50%;
-  }
-}
-
-/* Mobile */
-@media (max-width:480px){
-  .box{
-    width:100%;
-  }
-}
-
-img{
-  max-width:100%;
-  height:auto;
-}
-</style>
 address {
   margin-bottom: 1rem;
   font-style: normal;
@@ -476,24 +440,35 @@ pre {
   max-height: 340px;
   overflow-y: scroll; }
 
-.container {
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto; }
-  @media (min-width: 576px) {
-    .container {
-      max-width: 540px; } }
-  @media (min-width: 768px) {
-    .container {
-      max-width: 720px; } }
-  @media (min-width: 992px) {
-    .container {
-      max-width: 960px; } }
-  @media (min-width: 1200px) {
-    .container {
-      max-width: 1140px; } }
+.container{
+  display:flex;
+  flex-wrap:wrap;
+}
+
+.box{
+  width:33%;
+  padding:10px;
+}
+
+/* Tablet */
+@media (max-width:768px){
+  .box{
+    width:50%;
+  }
+}
+
+/* Mobile */
+@media (max-width:480px){
+  .box{
+    width:100%;
+  }
+}
+
+img{
+  max-width:100%;
+  height:auto;
+}
+</style>
 
 .container-fluid {
   width: 100%;
